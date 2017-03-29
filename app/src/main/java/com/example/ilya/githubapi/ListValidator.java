@@ -12,7 +12,8 @@ import retrofit2.http.Path;
  */
 
 interface ListValidator {
-    @GET("users/IlyaNikk/repos")
+
+    @GET("repos")
     @Headers({
             "Accept: application/json"
     })

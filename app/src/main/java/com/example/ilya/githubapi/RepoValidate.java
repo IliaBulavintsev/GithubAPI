@@ -19,10 +19,10 @@ public class RepoValidate {
 //        return result.toString();
 //    }
 
-    private int id;
-    private String name;
-    private String full_name;
-    private String html_url;
+    public int id;
+    public String name;
+    public String full_name;
+    public String html_url;
 
     @Override
     public String toString(){
